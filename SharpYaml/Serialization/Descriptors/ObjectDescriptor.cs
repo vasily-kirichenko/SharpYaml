@@ -90,7 +90,7 @@ namespace SharpYaml.Serialization.Descriptors
 			// Sort members by name
 			// This is to make sure that properties/fields for an object 
 			// are always displayed in the same order
-			memberList.Sort(SortMembers);
+			//memberList.Sort(SortMembers);
 
 			// Free the member list
 			this.members = memberList.ToArray();
